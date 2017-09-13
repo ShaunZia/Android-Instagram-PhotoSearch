@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+By Shaun Zia
+Completed October 12, 2015
+For Stradigi Inc.
+Corresponds to AllMediaFiles.java
+-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <Button android:id="@+id/btnHomeScreen"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Return to Home Screen" />
+
+    <GridView
+        android:id="@+id/gvAllImages"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/icon"
+        android:scaleType="centerCrop"
+        android:numColumns="3" >
+    </GridView>
+
+</LinearLayout>
+
